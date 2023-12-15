@@ -1,0 +1,19 @@
+{
+  "name": "@efr/medservice-web-presentation-module-bpm-dev",
+  "version": "1.0.0-smed",
+  "description": "Презентационный слой модуля BPM для отладки.",
+  "main": "src/index.js",
+  "devDependencies": {
+    "@efr/medservice-web-presentation-core": "15.0.0-smed",
+    "@efr/medservice-web-presentation-utils-dev": "15.0.0-smed"
+  },
+  "dependencies": {
+    "@efr/medservice-web-presentation-module-bpm": "^1.0.0-smed"
+  },
+  "scripts": {
+    "lint": "run-liter"
+  },
+  "publishConfig": {
+    "registry": "http://coral:18088/repository/efr-presentation-common/"
+  }
+}

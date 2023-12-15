@@ -1,0 +1,15 @@
+{
+  "name": "@efr/medservice-web-presentation-module-bpm-mock",
+  "version": "1.0.0-smed",
+  "description": "Презентационный слой модуля BPM. Заглушка.",
+  "main": "src/index.js",
+  "dependencies": {
+    "@efr/medservice-web-presentation-module-bpm": "^1.0.0-smed"
+  },
+  "scripts": {
+    "lint": "run-liter"
+  },
+  "publishConfig": {
+    "@efr:registry": "http://coral:18088/repository/efr-presentation-common/"
+  }
+}

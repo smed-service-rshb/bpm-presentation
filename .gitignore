@@ -1,0 +1,8 @@
+output
+build
+node_modules
+lerna-debug.log
+npm-debug.log
+yarn-error.log
+/.idea/workspace.xml
+/.idea/sonar*

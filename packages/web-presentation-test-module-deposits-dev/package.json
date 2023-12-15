@@ -1,0 +1,33 @@
+{
+  "name": "@efr/medservice-web-presentation-test-module-deposits-dev",
+  "version": "1.0.0-smed",
+  "description": "Тестовый модуль BPM. Депозиты. Отладочное приложение.",
+  "private": true,
+  "main": "src/index.js",
+  "devDependencies": {
+    "@efr/medservice-eslint-config-react": "15.0.0-smed",
+    "@efr/medservice-web-presentation-authentication": "1.0.0-smed",
+    "@efr/medservice-web-presentation-authentication-mock": "1.0.0-smed",
+    "@efr/medservice-web-presentation-core": "15.0.0-smed",
+    "@efr/medservice-web-presentation-ui": "15.0.0-smed",
+    "@efr/medservice-web-presentation-utils-dev": "15.0.0-smed",
+    "@efr/medservice-web-presentation-utils-mock": "15.0.0-smed",
+    "@efr/medservice-web-presentation-utils-test": "15.0.0-smed"
+  },
+  "dependencies": {
+    "@efr/medservice-web-presentation-bpm-tasks-aggregation": "^1.0.0-smed",
+    "@efr/medservice-web-presentation-module-bpm": "^1.0.0-smed",
+    "@efr/medservice-web-presentation-module-bpm-dev": "^1.0.0-smed",
+    "@efr/medservice-web-presentation-module-bpm-mock": "^1.0.0-smed",
+    "@efr/medservice-web-presentation-test-module-clients": "^1.0.0-smed",
+    "@efr/medservice-web-presentation-test-module-clients-mock": "^1.0.0-smed",
+    "@efr/medservice-web-presentation-test-module-deposits": "^1.0.0-smed",
+    "@efr/medservice-web-presentation-test-module-deposits-mock": "^1.0.0-smed"
+  },
+  "scripts": {
+    "start-mock": "start-mock",
+    "start-app": "start-dev-app",
+    "build": "build-dev-app",
+    "lint": "run-liter"
+  }
+}

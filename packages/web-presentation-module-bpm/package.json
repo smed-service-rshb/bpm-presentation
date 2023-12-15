@@ -1,0 +1,17 @@
+{
+  "name": "@efr/medservice-web-presentation-module-bpm",
+  "version": "1.0.0-smed",
+  "description": "Презентационный слой модуля BPM.",
+  "main": "src/index.js",
+  "devDependencies": {
+    "@efr/medservice-eslint-config-react": "15.0.0-smed",
+    "@efr/medservice-web-presentation-core": "15.0.0-smed",
+    "@efr/medservice-web-presentation-ui": "15.0.0-smed"
+  },
+  "scripts": {
+    "lint": "run-liter"
+  },
+  "publishConfig": {
+    "registry": "http://coral:18088/repository/efr-presentation-common/"
+  }
+}

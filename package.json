@@ -1,0 +1,19 @@
+{
+  "name": "web-presentation-bpm",
+  "description": "Презентационный слой BPM.",
+  "private": true,
+  "devDependencies": {
+    "lerna": "2.2.0"
+  },
+  "scripts": {
+    "postinstall": "lerna bootstrap --concurrency=1 --hoist",
+    "test": "run-tests",
+    "lint": "lerna exec -- npm run lint",
+    "clean": "lerna exec -- rimraf node_modules && rimraf output && rimraf node_modules",
+    "build": "cd packages/web-presentation-test-module-deposits-dev && npm run build",
+    "bpm:clients:start:app": "cd packages/web-presentation-test-module-clients-dev && npm run start-app",
+    "bpm:clients:start:mock": "cd packages/web-presentation-test-module-clients-dev && npm run start-mock",
+    "bpm:deposits:start:app": "cd packages/web-presentation-test-module-deposits-dev && npm run start-app",
+    "bpm:deposits:start:mock": "cd packages/web-presentation-test-module-deposits-dev && npm run start-mock"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "presets": [
+    "react-app"
+  ],
+  "plugins": [
+    "transform-export-extensions"
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        [
+          "babel-plugin-transform-require-stub",
+          {
+            "extensions": [
+              ".css",
+              "jpg",
+              "jpeg",
+              "png",
+              "gif"
+            ],
+            "value": {}
+          }
+        ]
+      ]
+    }
+  }
+}

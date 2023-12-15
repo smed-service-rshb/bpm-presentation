@@ -1,0 +1,13 @@
+{
+  "name": "@efr/medservice-web-presentation-test-module-deposits",
+  "version": "1.0.0-smed",
+  "description": "Тестовый модуль BPM. Депозиты.",
+  "private": true,
+  "main": "src/index.js",
+  "dependencies": {
+    "@efr/medservice-web-presentation-module-bpm": "^1.0.0-smed"
+  },
+  "scripts": {
+    "lint": "run-liter"
+  }
+}

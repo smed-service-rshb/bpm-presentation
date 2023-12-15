@@ -1,0 +1,22 @@
+{
+  "name": "@efr/medservice-web-presentation-bpm-tasks-aggregation",
+  "version": "1.0.0-smed",
+  "description": "Презентационный слой модуля агрегации bpm-задач",
+  "main": "src/index.js",
+  "dependencies": {
+    "@efr/medservice-web-presentation-module-bpm": "^1.0.0-smed"
+  },
+  "devDependencies": {
+    "@efr/medservice-web-presentation-core": "15.0.0-smed"
+  },
+  "scripts": {
+    "start-mock": "start-mock",
+    "start-app": "start-dev-app",
+    "build": "build-dev-app",
+    "test": "jest --env=jsdom",
+    "lint": "run-liter"
+  },
+  "publishConfig": {
+    "@efr:registry": "http://coral:18088/repository/efr-presentation-services/"
+  }
+}

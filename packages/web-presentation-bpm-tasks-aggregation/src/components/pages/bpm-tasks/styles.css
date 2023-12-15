@@ -1,0 +1,12 @@
+.buttons-before-table {
+    margin-bottom: 20px;
+    float: right;
+}
+.checkbox-in-table {
+    margin-right: 8px;
+}
+.p-notification {
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 14px;
+}

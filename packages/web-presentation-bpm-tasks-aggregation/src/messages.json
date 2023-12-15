@@ -1,0 +1,7 @@
+{
+  "Alerts":{
+    "notAssignedTaskMessage": "Задача не назначена",
+    "reassignedTaskMessage": "Задача переназначена",
+    "assignedTaskMessage": "Задача уже взята на исполнение"
+  }
+}
